@@ -45,6 +45,7 @@ print("The winning number is " + str(num))
 print("The output array should have:")
 result = []
 
+#if there is only one result, just output the number itself
 if(len(list) == 0):
     result = num
 
