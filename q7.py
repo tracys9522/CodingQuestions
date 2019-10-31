@@ -7,7 +7,7 @@ import sqlite3
 conn = sqlite3.connect('init.db')
 c = conn.cursor()
 
-#select data having count greater than 2 
+#select data having count greater than 2
 c.execute("SELECT name,count(*) FROM CAR group by name having count(*)>2")
 
 #print results
