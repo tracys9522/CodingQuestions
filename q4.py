@@ -20,13 +20,13 @@ input = []
 #insert each digit into the list for swapping later
 for i in range(len(num_str)):
     input.append(num_str[i])
-print(input)
+#print(input)
 #algorithm to swap the digits
 i = len(input)-1 #it for the last element
 
+#starting i at the last digit, keep swapping with the previous digits
 while(i >= 0):
     j = i - 1
-
     while(j>=0):
         #hard copy input
         temp = copy.copy(input)

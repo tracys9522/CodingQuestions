@@ -7,14 +7,14 @@ num = randint(000000,999999)
 
 #use modular to calculate the last two digits of the lottery number
 last_two_digit = num%(10**2)
-print(last_two_digit)
+#print(last_two_digit)
 
 #first number should be 0000+last two digits
 start = '0000'+str(last_two_digit)
 list = []
 list.append(start)
-print(list)
-print(start)
+#print(list)
+#print(start)
 start = int(start)
 
 #for every 100, keep adding to the last two digits to get the next value till 999999
